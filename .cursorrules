@@ -1,0 +1,44 @@
+# ORBIT — AI Product Management Platform
+
+## STACK
+Next.js 14 App Router, TypeScript, Tailwind CSS, Clerk auth, Supabase, Anthropic Claude API.
+
+## CODE RULES
+- TypeScript always. Never use `any` type.
+- Functional components only. No class components.
+- No inline styles. Tailwind only.
+- Every component under 150 lines. Split if longer.
+- Always handle loading and error states.
+- No TODO comments. Write real working code.
+
+## DESIGN RULES — FOLLOW STRICTLY
+- Font weights: 400 and 500 ONLY. Never bold, semibold, 600, 700, 800.
+- NO gradient backgrounds ever.
+- NO gradient text effects (no bg-clip-text gradient).
+- NO box shadows.
+- NO border-radius above 16px except rounded-full.
+- NO animations except transition-opacity and transition-colors.
+
+## COLORS — USE ONLY THESE
+Dark backgrounds: #0A0A0A, #111111, #1A1A1A
+Dark text: white, rgba(255,255,255,0.6), rgba(255,255,255,0.3)
+Light backgrounds: #FFFFFF, #F9F9F9, #F3F3F3
+Light text: #0A0A0A, #6B6B6B, #B3B3B3
+Accent: white/50 on dark, #0A0A0A on light. Secondary labels: #ACADB1
+Borders: border-[0.5px] border-white/8 on dark, border-black/8 on light
+
+## BUTTON PATTERNS
+Primary: bg-[#0A0A0A] text-white h-11 px-6 rounded-full text-sm font-medium hover:opacity-80
+Secondary: border border-black/15 text-[#0A0A0A] h-11 px-6 rounded-full text-sm hover:bg-[#F3F3F3]
+Small solid: bg-[#0A0A0A] text-white h-9 px-4 rounded-full text-xs font-medium hover:opacity-80
+
+## CARD PATTERNS
+Light card: bg-white rounded-xl border border-black/8 p-5
+Dark card: bg-[#1A1A1A] rounded-xl border border-white/6 p-5
+
+## COPY TO USE
+Product: ORBIT
+Tagline: "Your roadmap, written by AI"
+Pain: "PMs spend 60% of their week synthesizing feedback, not deciding"
+Integrations: Slack, Intercom, Linear, Gong
+Social proof companies: Retool, Loom, Coda, Browserbase, Cal.com, Raycast
